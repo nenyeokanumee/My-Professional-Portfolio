@@ -141,3 +141,23 @@ i{
 ::placeholder{
     padding: 0.5rem;
 }
+
+/* Grid */
+.grid{
+    display: grid;
+    grid-gap: 3rem;
+}
+
+@media screen and (width>=1000px) {
+    
+    .grid--1X2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid--1X3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid--infinity{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
