@@ -93,3 +93,19 @@ a{
     border: 1px solid var(--color-headings);
     border-radius: var(--border-radius);
 }
+
+/* Service Card */
+
+.card{
+    padding: 4rem;
+    background: var(--color-secondary);
+}
+
+.card__content{
+    color: var(--color-primary);
+}
+
+i{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
