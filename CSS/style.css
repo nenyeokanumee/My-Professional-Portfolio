@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    color: var(--color-body);
+    background: var(--color-body);
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
@@ -68,3 +68,8 @@ p{
     }
 }
 
+/* Links */
+a{
+    text-decoration: none;
+    color: var(--color-headings);
+}
