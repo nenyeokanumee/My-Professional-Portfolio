@@ -146,6 +146,7 @@ i{
 .grid{
     display: grid;
     grid-gap: 3rem;
+    border: 1px solid lightgrey;
 }
 
 @media screen and (width>=1000px) {
@@ -160,4 +161,10 @@ i{
     .grid--infinity{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+}
+
+/* Container */
+
+.container{
+    margin: 0 10rem 8rem;
 }
