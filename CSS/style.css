@@ -39,6 +39,7 @@ h1, h2, h3{
 
 h1{
     font-size: 5rem;
+    margin-bottom: 5rem;
 }
 
 h2{
@@ -165,8 +166,8 @@ i{
 /* Container */
 
 .container{
-    padding: 1rem 1rem 8rem;
-    margin: 0 10rem 8rem 10rem;
+    /* padding: 1rem 1rem 8rem; */
+    margin: 0 7rem 8rem 7rem;
 }
 
 /* Footer */
@@ -295,7 +296,7 @@ i{
 
 .media__img{
     width: 100%;
-    max-width: 30rem;
+    /* max-width: 30rem; */
     height: auto;
     border-radius: 2rem;
     min-width: 200px;
