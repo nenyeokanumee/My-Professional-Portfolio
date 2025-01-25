@@ -90,6 +90,7 @@ a{
 .card{
     padding: 4rem;
     background: var(--color-secondary);
+    border-radius: var(--border-radius);
 }
 
 .card__content{
@@ -343,7 +344,6 @@ input[type="radio"] {
 /* Contact Me */
 .reach__out, .reach, p{
     display: inline-block;
-    /* font-size: 3rem; */
     text-transform: lowercase;
     margin-bottom: 3rem;
 }
