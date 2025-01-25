@@ -121,6 +121,15 @@ i{
     color: var(--color-primary);
 }
 
+.hero__image__container{
+    margin: 1px auto;
+}
+
+.hero__image{
+    border-radius: 100%;
+    border: 3px solid var(--color-headings);
+}
+
 /* Form Component */
 
 .input__field{
@@ -147,7 +156,7 @@ i{
 .grid{
     display: grid;
     grid-gap: 3rem;
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
 }
 
 @media screen and (width>=1000px) {
@@ -167,7 +176,7 @@ i{
 /* Container */
 
 .container{
-    margin: 0 10rem 8rem;
+    padding: 1rem 10% 8rem;
 }
 
 /* Footer */
