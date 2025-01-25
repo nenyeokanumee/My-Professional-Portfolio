@@ -18,6 +18,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -177,3 +178,116 @@ i{
     padding: 3rem 0;
     text-align: center;
 }
+
+/* Navigation Navbar */
+.navbar{
+    display: flex;
+    padding: 2rem;
+}
+
+.logo .logo__img{
+    width: 20rem;
+}
+
+.close__sidebar{
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.open__sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.fas{
+    color: var(--color-primary);
+}
+
+.navbar{
+    position: relative;
+}
+
+.links__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    height: 100%;
+    background: var(--color-secondary);
+    box-shadow: -5px 0 5px var(--color-secondary);
+    transition: 0.5s;
+    z-index: 10;
+}
+.links__container .nav__link{
+    margin: 1rem 0;
+    width: 100%;
+    padding: 1rem;
+    transition: 0.7s;
+}
+
+.links__container .nav__link:hover{
+    background: var(--color-headings);
+    color: var(--color-body);
+}
+
+#sidebar:checked ~ .links__container{
+    right: 0;
+}
+
+#sidebar:checked ~ #overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 9;
+
+}
+#sidebar{
+    display: none;
+}
+
+@media screen and (width>=768px){
+    .navbar{
+        height: 60px;
+    }
+    
+    .logo .logo__img{
+        width: 18rem;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .links__container{
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 2rem;
+        margin-left: auto;
+        box-shadow: none;
+        font-size: 2.5rem;
+        background: none;
+        width: auto;
+        height: auto;
+        background: none;
+        box-shadow: none;
+    }
+
+    .links__container .nav__link{
+        margin: 2rem ;
+    }
+    
+    #sidebar, .close__sidebar, .open__sidebar{
+        display: none;
+    }
+
+} 
