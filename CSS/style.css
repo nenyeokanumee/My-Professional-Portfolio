@@ -378,6 +378,19 @@ input[type="radio"] {
     gap: 0;
 }
 
+.tab__content--title{
+    color: var(--color-headings);
+    margin-bottom: 1rem;
+}
+
+.tab__content--title::marker{
+    color: var(--color-primary);
+}
+
+.tab__content--details{
+    color: var(--color-primary);
+}
+
 /* Contact Me */
 
 .contact__title{
