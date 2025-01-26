@@ -379,6 +379,17 @@ input[type="radio"] {
 }
 
 /* Contact Me */
+
+.contact__title{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.contact__details{
+    display: inline-block;
+    padding-bottom: 1.6rem;
+}
+
 .reach{
     font-size: 1.8rem;
 }
