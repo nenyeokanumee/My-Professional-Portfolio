@@ -334,6 +334,10 @@ i{
     min-width: 200px;
 }
 
+.project__img{
+    border: 1px solid var(--color-primary);
+}
+
 .divider{
     display: flex;
     justify-content: space-between;
@@ -376,7 +380,7 @@ input[type="radio"] {
 
 /* Contact Me */
 .reach{
-    font-size: 0.8rem;
+    font-size: 1.8rem;
 }
 
 .social__media{
