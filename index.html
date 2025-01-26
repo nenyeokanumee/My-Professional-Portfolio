@@ -5,17 +5,383 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/style.css" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet" /> -->
     <script
       src="https://kit.fontawesome.com/7f11f647e8.js"
       crossorigin="anonymous"></script>
     <title>My Professional Portfolio - Chukwunenye Okanumee</title>
   </head>
   <body>
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <img src="/Images/MyNavbarLogo.png" class="logo__img" />
+      </a>
+      <input type="checkbox" name="" id="sidebar" />
+      <label for="sidebar" class="open__sidebar">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label for="sidebar" id="overlay"></label>
+      <div class="links__container">
+        <label for="sidebar" class="close__sidebar">
+          <i class="fas fa-times"></i>
+        </label>
+        <a class="nav__link" href="#home">Home</a>
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#services">Services</a>
+        <a class="nav__link" href="#projects">Projects</a>
+        <a class="nav__link" href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="container" id="home">
+      <div class="grid grid--1X2">
+        <div>
+          <h2 class="header--white pro__title">Web Developer</h2>
+          <h1>
+            <span class="header--white">Hello, I am</span><br />
+            Chukwunenye Okanumee
+          </h1>
+          <p>and you are welcome to my portfolio website</p>
+        </div>
+        <div class="hero__image__container">
+          <img
+            src="/Images/Me In GT Orange T-Shirt.jpg"
+            alt="me in Orange T-Shirt"
+            class="hero__image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="about">
+      <div class="grid grid--1X2">
+        <img
+          src="/Images/About Me.png"
+          alt="Myself - Chukwunenye Okanumee"
+          class="media__img about__img" />
+        <div class="details">
+          <h1>About Me</h1>
+          <p>
+            I am a passionate web developer with a strong foundation in HTML,
+            CSS, JavaScript, TypeScript, and React. A keen eye for detail and a
+            commitment to creating user-friendly digital experiences, I have
+            successfully completed <a href="#projects">several projects</a> and
+            this website is one of them.
+          </p>
+
+          <p>
+            My approach combines technical expertise with a focus on clean,
+            efficient code and modern design principles. I thrive on
+            problem-solving and continuously expanding my knowledge to stay
+            updated with the latest industry trends and best practices.
+          </p>
+
+          <p>
+            I am eager to collaborate on innovative projects and contribute to
+            building impactful digital solutions. Whether it's crafting
+            intuitive interfaces or developing robust applications, I am driven
+            by a passion for turning ideas into reality. Let’s create something
+            extraordinary together!
+          </p>
+          <!-- Radio buttons with corresponding labels -->
+          <div class="tabgrid">
+            <input type="radio" name="toggle" id="skills" checked />
+            <input type="radio" name="toggle" id="education" />
+
+            <label for="skills"><h3 class="tab__title">Skills</h3></label>
+            <label for="education"><h3 class="tab__title">Education</h3></label>
+            <div class="toggle-content skills__content">
+              <ul>
+                <li class="paragraph__message">
+                  Web Development<span class="paragraph__message"
+                    ><br />Development of websites</span
+                  >
+                </li>
+                <li class="paragraph__message">
+                  Languages<span class="paragraph__message"
+                    ><br />HTML | CSS | JavaScript | Typescript | React</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="toggle-content education__content">
+              <ul>
+                <li>
+                  Computer Science<span><br />Federal Polytechnic Nekede</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="services">
+      <h1>My Services</h1>
+      <p>
+        As a passionate web developer, I specialize in creating functional,
+        responsive, and user-friendly web solutions. Here, you’ll find the key
+        areas where I can contribute to projects, from building clean, dynamic
+        interfaces to testing solutions and seamless collaboration.
+      </p>
+      <div class="grid grid--1X3">
+        <div>
+          <div class="card">
+            <i class="fas fa-code"></i>
+            <h2>Web Development</h2>
+            <div class="card__content">
+              <p>
+                I create engaging and functional websites using HTML, CSS, and
+                JavaScript. My focus is on clean code, responsive layouts, and
+                performance optimization. I prioritize user experience by
+                delivering intuitive designs that meet project goals. I’m ready
+                to contribute to building impactful digital solutions.
+                <br /><br /><br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <i class="fas fa-bug"></i>
+            <h2>Bug Fixing</h2>
+            <div class="card__content">
+              <p>
+                With a sharp eye for detail, I identify and resolve bugs in web
+                applications efficiently. From fixing layout inconsistencies to
+                addressing JavaScript errors, I ensure smooth functionality and
+                optimal user experience. I’m committed to maintaining
+                high-quality code by thoroughly testing changes, continuously
+                improving performance, and supporting seamless operations in
+                every project I contribute to.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <i class="fas fa-mobile-alt"></i>`
+            <h2>Responsive Design Implementation</h2>
+            <div class="card__content">
+              <p>
+                I specialize in creating responsive web designs that ensure
+                seamless experiences across all devices. Using CSS media queries
+                and modern layout techniques, I craft websites that look and
+                perform beautifully on desktops, tablets, and smartphones. My
+                dedication to accessibility and adaptability drives me to
+                deliver designs that cater to diverse user needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <i class="fas fa-layer-group"></i>`
+            <h2>Framework Familiarity</h2>
+            <div class="card__content">
+              <p>
+                I leverage foundational knowledge in frameworks like React and
+                milligram to develop efficient, scalable web applications. By
+                building reusable components and adhering to best practices, I
+                contribute to maintainable and high-performing codebases. My
+                enthusiasm for learning ensures continuous improvement, enabling
+                me to adapt and excel in dynamic development environments.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <i class="fas fa-code-branch"></i>`
+            <h2>Version Control Contribution</h2>
+            <div class="card__content">
+              <p>
+                I’m skilled in using Git to manage, track, and collaborate on
+                code efficiently. By committing changes methodically, resolving
+                conflicts, and maintaining organized repositories, I support
+                seamless teamwork and project progression. My commitment to
+                clear documentation and disciplined version control practices
+                ensures projects run smoothly and developers stay aligned.<br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <i class="fas fa-search"></i>`
+            <h2>Testing and Debugging</h2>
+            <div class="card__content">
+              <p>
+                I excel at testing and debugging, ensuring flawless
+                functionality in web applications. By using developer tools and
+                meticulous analysis, I identify and resolve errors promptly. My
+                proactive approach to quality assurance improves performance and
+                stability, delivering polished and reliable solutions. I’m
+                committed to maintaining high standards for user experience and
+                project success.<br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="projects">
+      <h1>My Projects</h1>
+      <p>
+        Here are some of the projects that I have have taken up. Thier codes are
+        available on GitHub
+      </p>
+      <div class="grid grid--1X2">
+        <img src="/Images/Mosh.png" alt="" class="media__img" />
+        <div class="details">
+          <h2>Cloud Hosting Website</h2>
+          <p>
+            I designed and developed a responsive cloud-hosting website,
+            showcasing my skills in front-end development. The project features
+            intuitive navigation, modern design elements, and interactive
+            components, providing a seamless user experience. This hands-on
+            experience strengthened my proficiency in web technologies and
+            highlighted my ability to build functional, user-focused
+            applications.
+          </p>
+          <a target="_blank" href="https://nenyemoshify.netlify.app/">Visit the Cloud Hosting Website Here</a>
+        </div>
+        <img
+          src="/Images/Age Calculator.png"
+          alt="Myself - Chukwunenye Okanumee"
+          class="media__img" />
+        <div class="details">
+          <h2>Age Calculator</h2>
+          <p>
+            I developed an intuitive Age Calculator website that allows users to
+            select their date of birth and instantly calculates their exact age.
+            This project showcases my skills in JavaScript for dynamic
+            calculations, as well as creating a user-friendly interface. It
+            highlights my ability to design functional and engaging web
+            applications.
+          </p>
+          <a href="">Visit the Age Calculator Here</a>
+        </div>
+        <img
+          src="/Images/Password Generator.png"
+          alt="Myself - Chukwunenye Okanumee"
+          class="media__img" />
+        <div class="details">
+          <h2>Password Generator</h2>
+          <p>
+            I created a Password Generator website that enables users to
+            generate strong, secure passwords effortlessly. All you need to do
+            is click on generate password and the platform will generatea random
+            password then you click on the copy button and it will copy the
+            password to clipbord fro you. This project demonstrates my ability
+            to implement logic-driven functionality using JavaScript and design
+            an intuitive interface for a seamless user experience.
+          </p>
+          <a href="">Visit the Password Generator Here</a>
+        </div>
+        <img
+          src="/Images/Quote Generator.png"
+          alt="Myself - Chukwunenye Okanumee"
+          class="media__img" />
+        <div class="details">
+          <h2>Random Quote Generator</h2>
+          <p>
+            I developed a Random Quote Generator that fetches and displays
+            inspiring quotes using an API. If you need another quote all you
+            need to do is click on the "New Quote" button. You can also tweet
+            the quote if you want to. This project highlights my skills in
+            JavaScript for API integration, CSS for styling, and creating a
+            dynamic user interface. It reflects my ability to combine
+            functionality and design to deliver an engaging user experience.
+          </p>
+          <a href="">Visit Random Quote Generator Here</a>
+        </div>
+        <img
+          src="/Images/Todo list.png"
+          alt="Myself - Chukwunenye Okanumee"
+          class="media__img" />
+        <div class="details">
+          <h2>Todo list</h2>
+          <p>
+            I developed a Todo List application that allows users to easily add,
+            delete, check, and uncheck tasks. The app provides an intuitive
+            interface for managing tasks. This project showcases my ability to
+            implement interactive features using JavaScript, along with HTML and
+            CSS for a clean, user-friendly design. It demonstrates my skills in
+            building functional and dynamic web applications with practical use.
+          </p>
+          <a href="">Visit the Todo list Here</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contact">
+      <div class="grid grid--1X2">
+        <div>
+          <h1>Contact Me</h1>
+          <div>
+            <i class="fas fa-paper-plane reach"></i>
+            <a href="mailto:nenye.okanumee@gmail.com"
+              >nenye.okanumee@gmail.com</a
+            ><br />
+            <i class="fas fa-phone-square-alt reach">
+              <a href="tel:+2347069793773">07069793773</a></i
+            ><br />
+          </div>
+          <div class="socials">
+            <a
+              class="social__media"
+              target="_blank"
+              href="https://facebook.com/nenyeokanumee"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              class="social__media"
+              target="_blank"
+              href="https://twitter.com/nenyeokanumee"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+            <a
+              class="social__media"
+              target="_blank"
+              href="https://instagram.com/nenyeokanumee"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              class="social__media"
+              target="_blank"
+              href="https://linkedin.com/in/nenyeokanumee"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="socials"></div>
+          <button class="btn">Download CV</button>
+        </div>
+        <div>
+          <form action="" class="contact__form">
+            <input
+              type="text"
+              class="input__field"
+              placeholder="Enter your name here" />
+            <input
+              type="email"
+              name="email"
+              id=""
+              class="input__field"
+              placeholder="Enter your email here" />
+            <textarea
+              class="input__field text__field"
+              cols="50rem"
+              rows="100rem"
+              placeholder="Enter your messaage here"></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>by Chukwunenye Okanumee &copy; <span id="currentyear"></span></p>
+    </footer>
 
     <script src="/JS/main.js"></script>
   </body>
