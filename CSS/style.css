@@ -154,6 +154,13 @@ i{
     padding: 0.5rem;
 }
 
+
+@media screen and (width<=600px) {
+    .contact__form{
+        margin-right: 1rem;
+    }
+}
+
 /* Grid */
 .grid{
     display: grid;
@@ -180,6 +187,12 @@ i{
 .container{
     /* padding: 1rem 1rem 8rem; */
     margin: 0 4rem 8rem 4rem;
+}
+
+@media screen and (width<=600px) {
+        .contact__form{
+        margin-right: 1rem;
+    }
 }
 
 /* Footer */
@@ -363,7 +376,7 @@ input[type="radio"] {
 
 /* Contact Me */
 .reach{
-    font-size: 1.8rem;
+    font-size: 0.8rem;
 }
 
 .social__media{
