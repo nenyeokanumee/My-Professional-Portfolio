@@ -125,6 +125,8 @@ i{
 
 .hero__image{
     width: 100%;
+    align-self: center;
+    justify-self: center;
     height: auto;
     border-radius: 7px;
     border: 3px solid var(--color-headings);
@@ -177,7 +179,7 @@ i{
 
 .container{
     /* padding: 1rem 1rem 8rem; */
-    margin: 0 7rem 8rem 7rem;
+    margin: 0 4rem 8rem 4rem;
 }
 
 /* Footer */
