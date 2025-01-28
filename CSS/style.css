@@ -175,13 +175,12 @@ i{
 .grid{
     display: grid;
     grid-gap: 3rem;
-    /* border: 1px solid lightgrey; */
 }
 
 @media screen and (width>=1000px) {
     
     .grid--1X2{
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 1fr);
     }
     .grid--1X3{
         grid-template-columns: repeat(3, 1fr);
